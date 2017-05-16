@@ -9,7 +9,13 @@ var cssLang = [{
     name: 'stylus',
     reg: /\.styl$/,
     loader: "stylus-loader"
-}];
+},
+{
+    name: 'sass',
+    reg: /\.scss$/,
+    loader: "sass-loader"
+}
+];
 
 function genLoaders(lang) {
     var loaders = ['css-loader', 'postcss-loader'];

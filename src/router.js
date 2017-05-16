@@ -1,8 +1,20 @@
 module.exports = {
     routes: [
         {
-            path: '/about',
+            path: '',
             component: require('./views/about.vue')
+        },
+        {
+            path: '/music',
+            component: require('./views/music.vue')
+        },
+        {
+            path: '/blogs',
+            component: require('./views/blogs.vue')
+        },
+        {
+            path: '/resume',
+            component: require('./views/resume.vue')
         }
     ]
 }

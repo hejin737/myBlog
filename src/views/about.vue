@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="page">
         这是{{page}}页面
     </div>
 </template>
@@ -12,3 +12,8 @@
         }
     }
 </script>
+<style media="screen">
+  .page {
+    background-color: red;
+  }
+</style>
