@@ -7,14 +7,17 @@
     <div class="white-container">
         <v-header></v-header>
         <router-view></router-view>
+        <v-footer></v-footer>
     </div>
 </div>
 </template>
 <script>
  import vHeader from './common/Header.vue';
+ import vFooter from './common/Footer.vue';
  export default {
         components:{
-             vHeader
+             vHeader,
+             vFooter
         }
     }
 </script>
@@ -35,23 +38,32 @@ body {
     word-break: break-all;
 }
 .white-container{
-  width:80%;
-  margin:auto;
-  margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  /*width:70%;
+  margin:auto;*/
+  /*position: absolute;
+  top: 0px;
+  bottom:0;*/
+  /*margin-top: 30px;*/
   background-color: white;
-  height:100%;
+  /*height:100%;*/
   padding: 20px;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.12),0 0 6px 0 rgba(0,0,0,.04);
 }
 
 .content{
     background: none repeat scroll 0 0 #f5f5f5;
-    /*position: absolute;
+    position: absolute;
     left: 250px;
     right: 0;
-    top: 70px;
+    /*top: 70px;*/
     bottom:0;*/
-    height: 100%;
+    /*height: 100%;
     width: auto;
     /*padding:40px;*/
     box-sizing: border-box;
