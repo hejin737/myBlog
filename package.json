@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/hejin737/myBlog#readme",
   "dependencies": {
-    "vue": "^2.3.3"
+    "swiper": "^3.4.2",
+    "vue": "^2.3.3",
+    "vue-waterfall": "^1.0.6"
   },
   "devDependencies": {
     "autoprefixer": "^7.0.1",

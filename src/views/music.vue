@@ -30,7 +30,7 @@
     data() {
       return {
         musics: data.musics,
-        width: 940
+        width: 800
       }
     },
     created() {
@@ -78,14 +78,20 @@
 .musics {
   margin-top: 80px;
   margin-bottom: 80px;
+  // width:80%;
+}
+.music-player {
+  display: flex;
+  justify-content: center;
 }
 .music-list {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   margin-top: 80px;
 }
 .music-item {
-  width: 220px;
+  width: 180px;
   margin-bottom: 30px;
   margin-right: 20px;
   cursor: pointer;

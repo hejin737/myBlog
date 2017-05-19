@@ -1,12 +1,12 @@
 <template>
   <div class="header-container">
     <div class="moto">
-      不会搞艺术的程序员不是好设计师
+      KEEP CALM AND ENJOY
     </div>
     <div class="tabs">
-      <router-link to="/resume" >PHOTO</router-link>
+      <router-link to="/picture" >PICTURE</router-link>
       <router-link to="/music" >MUSIC</router-link>
-      <router-link to="/blogs" >LINKS</router-link>
+      <router-link to="/blogs" >SITES</router-link>
     </div>
       <!-- <router-link to="/about">about</router-link> -->
   </div>

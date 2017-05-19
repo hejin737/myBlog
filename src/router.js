@@ -2,7 +2,7 @@ module.exports = {
     routes: [
         {
             path: '',
-            component: require('./views/about.vue')
+            component: require('./views/music.vue')
         },
         {
             path: '/music',
@@ -13,8 +13,8 @@ module.exports = {
             component: require('./views/blogs.vue')
         },
         {
-            path: '/resume',
-            component: require('./views/resume.vue')
+            path: '/picture',
+            component: require('./views/picture.vue')
         }
     ]
 }

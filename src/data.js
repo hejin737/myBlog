@@ -22,95 +22,57 @@ export default {
   photos: [
     {
       id: 1,
-      url: 'http://7xj610.com1.z0.glb.clouddn.com//selfie/IMG_0239.JPG'
-    },
-    {
-      id: 2,
-      url: 'http://7xj610.com1.z0.glb.clouddn.com//selfie/254FF43C-61C9-4BD6-88C9-03E58E4549C9.JPG'
-    },
-    {
-      id: 3,
-      url: 'http://7xj610.com1.z0.glb.clouddn.com//selfie/IMG_0240.JPG'
-    },
-    {
-      id: 4,
-      url: 'http://7xj610.com1.z0.glb.clouddn.com//selfie/AA8386B7-A897-4A2A-9F44-BFE3F306C20B.JPG'
-    },
-    {
-      id: 5,
-      url: 'http://7xj610.com1.z0.glb.clouddn.com//selfie/IMG_0306.JPG'
+      url: 'http://ww2.sinaimg.cn/mw690/830d5f7fjw1e8wu9iketmj20jg0n2n0y.jpg'
     },
     {
       id: 6,
-      url: 'http://7xj610.com1.z0.glb.clouddn.com//selfie/IMG_0059.JPG'
+      url: 'http://ww3.sinaimg.cn/mw1024/830d5f7fgw1eiye07a6juj20gz0m8dlv.jpg'
     },
     {
+      id: 5,
+      url: 'http://ww4.sinaimg.cn/mw1024/830d5f7fgw1edcaho64wqj20ij0rs786.jpg'
+    },
+
+    // {
+    //   id: 3,
+    //   url: 'http://ww4.sinaimg.cn/mw1024/830d5f7fjw1e4a0ky71opj21kw0vyh5e.jpg'
+    // },
+    {
+      id: 4,
+      url: 'http://ww4.sinaimg.cn/mw1024/830d5f7ftw1eclbnizc69j20dw0f4dhn.jpg'
+    },
+
+    {
       id: 7,
-      url: 'http://7xj610.com1.z0.glb.clouddn.com//selfie/IMG_0426.JPG'
+      url: 'http://ww4.sinaimg.cn/mw1024/830d5f7fgw1ecx9mpin6tj20jg0l6q5u.jpg'
+    },
+    {
+      id: 2,
+      url: 'http://ww2.sinaimg.cn/mw1024/830d5f7fjw1e59oflmnxlj214d1j44qp.jpg'
     },
     {
       id: 8,
-      url: 'http://7xj610.com1.z0.glb.clouddn.com//selfie/IMG_0349.JPG'
+      url: 'http://wx4.sinaimg.cn/mw1024/e6bc8f32ly1ff5yuegh9hj20rs0n3agy.jpg'
     },
     {
       id: 9,
-      url: 'http://7xj610.com1.z0.glb.clouddn.com//selfie/IMG_2483.JPG'
+      url: 'http://wx1.sinaimg.cn/mw1024/e6bc8f32ly1feni8tuw78j20rs0ku78z.jpg'
     },
     {
       id: 10,
-      url: 'http://7xj610.com1.z0.glb.clouddn.com//selfie/8E02C7C3-CEC4-4A6B-93C4-894F02EFCE71.JPG'
+      url: 'http://wx2.sinaimg.cn/mw1024/e6bc8f32ly1fdwvxm8d7xj20rs0l00zt.jpg'
     },
     {
       id: 11,
-      url: 'http://7xj610.com1.z0.glb.clouddn.com//selfie/955D9BD2-8094-4C23-B023-2343221E6DCD.JPG'
+      url: 'http://wx2.sinaimg.cn/mw1024/e6bc8f32ly1ffoebzwyu3j20rs0jzdmv.jpg'
     },
     {
       id: 12,
-      url: 'http://7xj610.com1.z0.glb.clouddn.com//selfie/IMG_2689.JPG'
+      url: 'http://wx3.sinaimg.cn/mw1024/e6bc8f32gy1fcdsiiy6q2j219r12t11y.jpg'
     },
     {
       id: 13,
-      url: 'http://7xj610.com1.z0.glb.clouddn.com//selfie/IMG_0060.JPG'
-    },
-    {
-      id: 14,
-      url: 'http://7xj610.com1.z0.glb.clouddn.com//selfie/IMG_0224.JPG'
-    },
-    {
-      id: 15,
-      url: 'http://7xj610.com1.z0.glb.clouddn.com//selfie/IMG_5675.JPG'
-    },
-    {
-      id: 16,
-      url: 'http://7xj610.com1.z0.glb.clouddn.com//selfie/IMG_4584.JPG'
-    },
-    {
-      id: 17,
-      url: 'http://7xj610.com1.z0.glb.clouddn.com//selfie/IMG_0211.JPG'
-    },
-    {
-      id: 18,
-      url: 'http://7xj610.com1.z0.glb.clouddn.com//selfie/IMG_9096.JPG'
-    },
-    {
-      id: 19,
-      url: 'http://7xj610.com1.z0.glb.clouddn.com//selfie/IMG_4872.JPG'
-    },
-    {
-      id: 20,
-      url: 'http://7xj610.com1.z0.glb.clouddn.com//selfie/9CE0C546-B01C-4756-9A0A-9C0AD81C5440.JPG'
-    },
-    {
-      id: 21,
-      url: 'http://7xj610.com1.z0.glb.clouddn.com//selfie/2833DC5D-82B2-43D3-9EC0-E9CFF7ABCD9A.JPG'
-    },
-    {
-      id: 22,
-      url: 'http://7xj610.com1.z0.glb.clouddn.com//selfie/IMG_2638.JPG'
-    },
-    {
-      id: 23,
-      url: 'http://7xj610.com1.z0.glb.clouddn.com//selfie/IMG_6535.JPG'
+      url: 'http://wx3.sinaimg.cn/mw1024/e6bc8f32gy1fciedd24s3j212e0ll482.jpg'
     }
   ],
   musics: [
@@ -142,33 +104,33 @@ export default {
       singer: 'Lana Del Rey',
       src: 'http://m2.music.126.net/ePvudjG23gTOyV7w4Xm12Q==/7957165651806814.mp3'
     },
-    {
-      id: 3,
-      cover: 'http://7xj610.com1.z0.glb.clouddn.com/we-dont-talk-anymore.jpeg',
-      title: 'We Don\'t Talk Anymore',
-      singer: 'Charlie Puth & Selena Gomez',
-      src: 'http://7xj610.com1.z0.glb.clouddn.com/Charlie%20Puth,Selena%20Gomez%20-%20We%20Don%27t%20Talk%20Anymore.mp3'
-    },
-    {
-      id: 4,
-      cover: 'http://7xj610.com1.z0.glb.clouddn.com/california-dreaming.jpeg',
-      title: 'California Dreaming',
-      singer: 'The Mamas & The Papas',
-      src: 'http://7xj610.com1.z0.glb.clouddn.com/The%20Papas,The%20Mamas%20-%20California%20Dreaming%20%28%E9%87%8D%E5%BA%86%E6%A3%AE%E6%9E%97%29.mp3'
-    },
-    {
-      id: 5,
-      cover: 'http://7xj610.com1.z0.glb.clouddn.com/29ce98b4349b72c2778d2f82823159b06f98f8bc.jpeg',
-      title: 'Midnight',
-      singer: 'Coldplay',
-      src: 'http://7xj610.com1.z0.glb.clouddn.com/Coldplay%20-%20Midnight.mp3'
-    },
-    {
-      id: 6,
-      cover: 'http://7xj610.com1.z0.glb.clouddn.com/a-little-braver.jpeg',
-      title: 'A Little Braver',
-      singer: 'New Empire',
-      src: 'http://7xj610.com1.z0.glb.clouddn.com/New%20Empire%20-%20A%20Little%20Braver.mp3'
-    }
+    // {
+    //   id: 3,
+    //   cover: 'http://p3.music.126.net/L9QacUlwHu5qIFS6hAafsQ==/885106860404074.jpg',
+    //   title: 'Wonderful Tonight',
+    //   singer: 'Babyface',
+    //   src: 'http://7xj610.com1.z0.glb.clouddn.com/Charlie%20Puth,Selena%20Gomez%20-%20We%20Don%27t%20Talk%20Anymore.mp3'
+    // },
+    // {
+    //   id: 4,
+    //   cover: 'http://7xj610.com1.z0.glb.clouddn.com/california-dreaming.jpeg',
+    //   title: 'California Dreaming',
+    //   singer: 'The Mamas & The Papas',
+    //   src: 'http://7xj610.com1.z0.glb.clouddn.com/The%20Papas,The%20Mamas%20-%20California%20Dreaming%20%28%E9%87%8D%E5%BA%86%E6%A3%AE%E6%9E%97%29.mp3'
+    // },
+    // {
+    //   id: 5,
+    //   cover: 'http://7xj610.com1.z0.glb.clouddn.com/29ce98b4349b72c2778d2f82823159b06f98f8bc.jpeg',
+    //   title: 'Midnight',
+    //   singer: 'Coldplay',
+    //   src: 'http://7xj610.com1.z0.glb.clouddn.com/Coldplay%20-%20Midnight.mp3'
+    // },
+    // {
+    //   id: 6,
+    //   cover: 'http://7xj610.com1.z0.glb.clouddn.com/a-little-braver.jpeg',
+    //   title: 'A Little Braver',
+    //   singer: 'New Empire',
+    //   src: 'http://7xj610.com1.z0.glb.clouddn.com/New%20Empire%20-%20A%20Little%20Braver.mp3'
+    // }
   ]
 }

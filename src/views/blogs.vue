@@ -15,6 +15,7 @@
             <a href="http://sentsin.com/all/">闲心</a>
             <a href="http://www.liaoxuefeng.com/">廖雪峰</a>
             <a href="http://www.xuanfengge.com/">轩枫阁</a>
+            <a href="http://pinggod.com/archives/">pinggod</a>
             <!-- <a href="https://www.facebook.com/a.chef.salad">Facebook</a>
         <a href="https://www.instagram.com/nicholas_xue">Instagram</a> -->
         </div>
@@ -73,7 +74,7 @@ export default {}
 .blog-container
 {
     margin-top: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     display: flex;
     // justify-content: center;
     // align-items: center;
