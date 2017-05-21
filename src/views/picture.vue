@@ -13,10 +13,10 @@
         </waterfall-slot>
       </waterfall> -->
       <div class="photo-item" v-for="(item, index) in photos" :key="item.id" @click="showViewer(index)">
-        <img :src="cropImage(item.url, 100, 200)" alt="photography">
+        <img :src="cropImage(item.url, 250, 250)" alt="photography">
       </div>
     </div>
-    <!-- <image-viewer :show="isShowViewer" :images="photos" :active-index="activeIndex" :on-close="handleClose"></image-viewer> -->
+    <image-viewer :show="isShowViewer" :images="photos" :active-index="activeIndex" :on-close="handleClose"></image-viewer>
   </div>
 </template>
 
