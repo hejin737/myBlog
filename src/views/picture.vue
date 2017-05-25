@@ -66,7 +66,7 @@
   height: 250px;
   background-color: #fff;
   margin-bottom: 20px;
-  // cursor: zoom-in;
+  cursor: zoom-in;
   display: flex;
   align-items: center;
   justify-content: center;
