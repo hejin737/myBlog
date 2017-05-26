@@ -37,7 +37,7 @@
               initialSlide: vm.activeIndex,
               slidesPerView: 'auto',
               centeredSlides: true,
-              spaceBetween: 30,
+              spaceBetween: 0,
               keyboardControl: true,
               mousewheelControl: true,
               loop: true
@@ -56,6 +56,10 @@
 </script>
 
 <style lang="scss">
+.swiper-wrapper{
+  display: -webkit-inline-box;
+  height: 100%;
+}
 .image-viewer {
   position: fixed;
   top: 0;
@@ -74,15 +78,18 @@
   transition: all 0.5s ease;
 }
 .image-viewer-container {
-  width: 640px;
-  max-height: 640px;
-  margin: 0 auto;
+  width: 500px;
+  height: 800px;
+  // margin: 0 auto;
 }
 .image-viewer-slide {
+  // height:100%;
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+  margin-right: 8px;
   img {
-    display: block;
     max-width: 100%;
-    max-height: 640px;
   }
 }
 .image-viewer-close {
@@ -96,4 +103,5 @@
     height: 30px;
   }
 }
+
 </style>
