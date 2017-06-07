@@ -1,24 +1,4 @@
 export default {
-  images: [
-    {
-      id: 1,
-      category: 'photo',
-      url: 'http://7xj610.com1.z0.glb.clouddn.com/XT72K3MS5L.jpg',
-      intro: '世上只有一种英雄主义，就是在认清生活真相之后依然热爱生活。'
-    },
-    {
-      id: 2,
-      category: 'music',
-      url: 'http://7xj610.com1.z0.glb.clouddn.com/MJO5HX4V34.jpg',
-      intro: '我能有多骄傲，不堪一击好不好，一碰到你我就被撂倒'
-    },
-    {
-      id: 3,
-      category: 'video',
-      url: 'http://7xj610.com1.z0.glb.clouddn.com/StockSnap_93BIRH8NFG.jpg',
-      intro: '欣喜忧愁无从分享 欢笑落泪不能拥抱'
-    }
-  ],
   photos: [
     {
       id: 1,
@@ -33,10 +13,6 @@ export default {
       url: 'http://ww4.sinaimg.cn/mw1024/830d5f7fgw1edcaho64wqj20ij0rs786.jpg'
     },
 
-    // {
-    //   id: 3,
-    //   url: 'http://ww4.sinaimg.cn/mw1024/830d5f7fjw1e4a0ky71opj21kw0vyh5e.jpg'
-    // },
     {
       id: 4,
       url: 'http://ww4.sinaimg.cn/mw1024/830d5f7ftw1eclbnizc69j20dw0f4dhn.jpg'
@@ -104,33 +80,5 @@ export default {
       singer: 'Lana Del Rey',
       src: 'http://m2.music.126.net/ePvudjG23gTOyV7w4Xm12Q==/7957165651806814.mp3'
     },
-    // {
-    //   id: 3,
-    //   cover: 'http://p3.music.126.net/L9QacUlwHu5qIFS6hAafsQ==/885106860404074.jpg',
-    //   title: 'Wonderful Tonight',
-    //   singer: 'Babyface',
-    //   src: 'http://7xj610.com1.z0.glb.clouddn.com/Charlie%20Puth,Selena%20Gomez%20-%20We%20Don%27t%20Talk%20Anymore.mp3'
-    // },
-    // {
-    //   id: 4,
-    //   cover: 'http://7xj610.com1.z0.glb.clouddn.com/california-dreaming.jpeg',
-    //   title: 'California Dreaming',
-    //   singer: 'The Mamas & The Papas',
-    //   src: 'http://7xj610.com1.z0.glb.clouddn.com/The%20Papas,The%20Mamas%20-%20California%20Dreaming%20%28%E9%87%8D%E5%BA%86%E6%A3%AE%E6%9E%97%29.mp3'
-    // },
-    // {
-    //   id: 5,
-    //   cover: 'http://7xj610.com1.z0.glb.clouddn.com/29ce98b4349b72c2778d2f82823159b06f98f8bc.jpeg',
-    //   title: 'Midnight',
-    //   singer: 'Coldplay',
-    //   src: 'http://7xj610.com1.z0.glb.clouddn.com/Coldplay%20-%20Midnight.mp3'
-    // },
-    // {
-    //   id: 6,
-    //   cover: 'http://7xj610.com1.z0.glb.clouddn.com/a-little-braver.jpeg',
-    //   title: 'A Little Braver',
-    //   singer: 'New Empire',
-    //   src: 'http://7xj610.com1.z0.glb.clouddn.com/New%20Empire%20-%20A%20Little%20Braver.mp3'
-    // }
   ]
 }

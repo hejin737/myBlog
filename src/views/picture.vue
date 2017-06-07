@@ -29,9 +29,6 @@
   export default {
     components: {
       ImageViewer,
-      // 'waterfall': Waterfall.waterfall,
-      // 'waterfall-slot': Waterfall.waterfallSlot
-      // WaterfallSlot
     },
     data() {
       return {
@@ -71,10 +68,9 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  // &:nth-child(3n+2) {
-    margin-left: 20px;
-    margin-right: 20px;
-  // }
+  margin-left: 20px;
+  margin-right: 20px;
+
   img {
     display: block;
     width: 100%;

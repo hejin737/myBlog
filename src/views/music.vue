@@ -1,7 +1,7 @@
 <template>
   <div class="musics">
     <div class="music-player" v-if="currentMusic">
-      <ry-audio ref="ryAudio" :audio="currentMusic" :width="width" :on-prev="handlePrev" :on-next="handleNext"></ry-audio>
+      <my-audio ref="MyAudio" :MyAudio="currentMusic" :width="width" :on-prev="handlePrev" :on-next="handleNext"></my-audio>
     </div>
     <div class="music-list">
       <div class="music-item" v-for="(item, index) in musics" :key="item.id" @click="changeMusic(item, index)">
@@ -17,7 +17,7 @@
   </div>
 </template>
 <script>
-  import RyAudio from '../components/RyAudio.vue'
+  import MyAudio from '../components/MyAudio.vue'
   import data from '../data.js'
   import { cropImage } from '../utils'
   import { mapState } from 'vuex'
@@ -25,7 +25,7 @@
   export default {
     name: 'NMusic',
     components: {
-      RyAudio
+      MyAudio
     },
     data() {
       return {
@@ -47,7 +47,7 @@
         this.$store.dispatch('setMusic', item)
         this.$store.dispatch('setIndex', index)
       },
-      handleNext(audioEle) {
+      handleNext(MyAudioEle) {
         const len = this.musics.length
         const temp = this.currentIndex + 1
         if (temp < len) {
@@ -58,7 +58,7 @@
           this.$store.dispatch('setIndex', 0)
         }
       },
-      handlePrev(audioEle) {
+      handlePrev(MyAudioEle) {
         const len = this.musics.length
         const temp = this.currentIndex - 1
         if (temp < 0) {
