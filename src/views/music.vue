@@ -1,7 +1,7 @@
 <template>
   <div class="musics">
     <div class="music-player" v-if="currentMusic">
-      <my-audio ref="MyAudio" :MyAudio="currentMusic" :width="width" :on-prev="handlePrev" :on-next="handleNext"></my-audio>
+      <my-audio ref="MyAudio" :myaudio="currentMusic" :width="width" :on-prev="handlePrev" :on-next="handleNext"></my-audio>
     </div>
     <div class="music-list">
       <div class="music-item" v-for="(item, index) in musics" :key="item.id" @click="changeMusic(item, index)">
@@ -116,7 +116,7 @@
 .music-singer {
   font-size: 12px;
   margin-top: 5px;
-  font-style: italic;
+  // font-style: italic;
   color: rgba(0,0,0,0.44);
 }
 </style>

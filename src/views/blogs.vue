@@ -16,8 +16,6 @@
             <a href="http://www.liaoxuefeng.com/">廖雪峰</a>
             <a href="http://www.xuanfengge.com/">轩枫阁</a>
             <a href="http://pinggod.com/archives/">pinggod</a>
-            <!-- <a href="https://www.facebook.com/a.chef.salad">Facebook</a>
-        <a href="https://www.instagram.com/nicholas_xue">Instagram</a> -->
         </div>
     </div>
     </div>
@@ -37,8 +35,6 @@
               <a href="http://www.w3cplus.com/">w3cplus</a>
               <a href="https://www.qianduan.net/">前端观察</a>
               <a href="http://www.css88.com/">WEB前端开发</a>
-              <!-- <a href="https://www.facebook.com/a.chef.salad">Facebook</a>
-          <a href="https://www.instagram.com/nicholas_xue">Instagram</a> -->
           </div>
       </div>
   </div>
@@ -58,8 +54,6 @@
             <a href="http://colorhunt.co/">Color Hunt</a>
             <a href="https://pixabay.com/zh/">Pixabay</a>
             <a href="http://coverbox.sinaapp.com/">CoverBox</a>
-            <!-- <a href="https://www.facebook.com/a.chef.salad">Facebook</a>
-        <a href="https://www.instagram.com/nicholas_xue">Instagram</a> -->
         </div>
     </div>
   </div>
